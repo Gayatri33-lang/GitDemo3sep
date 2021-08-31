@@ -7,7 +7,7 @@ package com.Abstract;
 public class Abstractexample {
 
 	public static void main(String[] args) {
-		
+		System.out.println("Test");
 	}
 
 }
