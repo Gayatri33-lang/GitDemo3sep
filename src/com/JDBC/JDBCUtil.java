@@ -10,8 +10,8 @@ public class JDBCUtil {
 				
 		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 		String URL1 = "jdbc:sqlserver://LAPTOP-NJ1P9TEK\\GAYATRISQLSERVER:1433;databaseName="+dbName+";user=sa;password=Shirdi@#3";
-			Connection con2 =DriverManager.getConnection(URL1);
-			return con2;
+			Connection con3 =DriverManager.getConnection(URL1);
+			return con3;
 			
 		
 	}
