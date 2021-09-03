@@ -30,9 +30,9 @@ public class JDBCExample {
 			
 			Statement stmt = con.createStatement(); 
 			
-		ResultSet rs1	=stmt.executeQuery("select * from tbl_person");
+		ResultSet rs3	=stmt.executeQuery("select * from tbl_person");
 		
-		while(rs1.next()) {
+		while(rs3.next()) {
 			System.out.println(rs.getInt(1)  + " " + rs.getString(2) + " " + rs.getString(3));
 		}
 			
